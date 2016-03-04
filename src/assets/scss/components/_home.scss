@@ -1,0 +1,66 @@
+.currentSeries {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.currentSeries__series {
+    text-align: center;
+    color: darken($light-gray, 30%);
+    width: 280px;
+    margin-bottom: 50px;
+
+    a img {
+        @include thumbnail;
+        border-radius: 240px;
+    }
+
+    p {
+        font-size:16px;
+        margin-bottom: 0;
+        margin-top: 0;
+        line-height: 16px;
+        font-family: $sans-serif;
+    }
+
+    h3 a{
+        font-style: italic;
+        font-size: 20px;
+        margin-bottom: 0;
+        line-height: 20px;
+        color: $black;
+        margin-top: 0;
+    }
+
+    p:last-of-type {
+        font-style: italic;
+    }
+}
+
+.currentSeries__explanation {
+    width: 100%;
+    text-align: center;
+    font-family: $sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-style: italic;
+}
+.ministry {
+    background-size: cover;
+    min-height: 390px;
+}
+
+.ministry:nth-child(even) {
+    text-align: right;
+}
+
+.ministry__wrapper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}

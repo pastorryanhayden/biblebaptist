@@ -6,6 +6,8 @@
 @include foundation-off-canvas;
 @import 'components/navigation';
 @import 'components/icons';
+@import 'components/hero';
+@import 'components/home';
 
 @include foundation-global-styles;
 @include foundation-grid;

@@ -1,0 +1,54 @@
+.hero {
+    background: url(/assets/img/hero.jpg) no-repeat top center;
+    min-height: 80vh;
+    background-size: cover;
+    padding-top: 50px;
+    @include breakpoint(medium){
+        padding-top: 100px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 60px;
+        color: $white;
+    }
+}
+
+.hero__box {
+    width: 90%;
+    min-height: 700px;
+    background: rgba($black, .8);
+    color: $white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    @include breakpoint (medium) {
+        width: 629px;
+        min-height: 700px;
+    }
+}
+
+.hero__box h3 {
+    padding-top: 50px;
+}
+
+h3.worship {
+    background: url(/assets/img/heart.png) no-repeat top center;
+}
+
+h3.study {
+    background: url(/assets/img/bible.png) no-repeat top center;
+}
+
+h3.serve {
+    background: url(/assets/img/community.png) no-repeat top center;
+}
+
+h3.seek {
+    background: url(/assets/img/gift.png) no-repeat top center;
+}

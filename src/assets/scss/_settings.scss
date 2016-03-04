@@ -105,6 +105,8 @@ $block-grid-max: 8;
 $header-font-family:'Open Sans', sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
+$sans-serif: $header-font-family;
+$serif: $body-font-family;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
