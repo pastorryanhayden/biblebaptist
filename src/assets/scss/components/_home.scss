@@ -31,6 +31,7 @@
     h3 a{
         font-style: italic;
         font-size: 20px;
+        font-weight: 600;
         margin-bottom: 0;
         line-height: 20px;
         color: $black;
@@ -91,6 +92,13 @@
     a.button.hollow {
         color: $white;
         border-color: $white;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    a.button.hollow:hover {
+        color: $medium-gray;
+        background: $white;
     }
 
 }
@@ -101,4 +109,22 @@
         position: relative;
         right: 0;
     }
+}
+.homeEvents {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    h2 {
+        width: 100%;
+        color: $medium-gray;
+        font-weight: 700;
+    }
+}
+.homeEvents__explanation {
+    max-width: 300px;
 }
