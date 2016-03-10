@@ -55,6 +55,20 @@
     background-size: cover;
     background-color: $black;
 }
+
+.homeMinistries {
+    background: $secondary-color;
+
+h1 {
+    color: $white;
+    font-size: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
 .ministry2 {
     width: 100%;
     background-color: rgba($primary-color, .5);
@@ -127,4 +141,74 @@
 }
 .homeEvents__explanation {
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include breakpoint(small down){
+        margin-bottom: 40px;
+    }
+
+    a {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    a i {
+        font-size: 30px;
+    }
+}
+.homeLinks {
+    background: $light-gray;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 200px;
+
+}
+.quickLinks {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.quickLinks li {
+    padding: 0;
+    margin: 0;
+    max-width: 250px;
+    text-align: center;
+    @include breakpoint(small down) {
+        margin-bottom: 40px;
+    }
+}
+
+.quickLinks li a {
+    text-align: center;
+    font-size: 30px;
+    color: $medium-gray;
+}
+
+.quickLinks li a:hover {
+    color: $primary-color;
+}
+
+.quickLinks li a i {
+    display: block;
+    border: 2px solid $medium-gray;
+    border-radius: 200px;
+    width: 160px;
+    height: 160px;
+    line-height: 150px;
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.quickLinks li a:hover i {
+    border-color: $primary-color;
 }
