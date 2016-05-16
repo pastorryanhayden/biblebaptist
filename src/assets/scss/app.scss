@@ -5,14 +5,7 @@
 @import 'foundation';
 @import 'motion-ui';
 @include foundation-off-canvas;
-@import 'components/navigation';
-@import 'components/icons';
-@import 'components/hero';
-@import 'components/home';
-@import 'components/about';
-@import 'components/ministries';
-@import 'components/footer';
-@import 'components/welcome';
+
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -57,3 +50,17 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import 'components/navigation';
+@import 'components/icons';
+@import 'components/hero';
+@import 'components/home';
+@import 'components/about';
+@import 'components/ministries';
+@import 'components/footer';
+@import 'components/welcome';
+@import 'components/blog-list';
+@import 'components/blog-entry';
+@import 'components/devotions';
+@import 'components/sermons';
+@import 'components/serieslist';

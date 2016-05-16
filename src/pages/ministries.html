@@ -1,7 +1,8 @@
 
 <div class="ministriesPage">
+{% for ministry in site.ministries %}
     <div class="ministriesPage__Title">
-        <h1>Patch the Pirate Club</h1>
+        <h1>{{ministry.title}}</h1>
         <div class="ministriesDescription">
             <p>A weekly Bible and Choir club for kids aged 4-13.  Patch Club meets on Thursday Nights during the school year from 6:30PM till 8:00PM.</p>
         </div><!--/ministriesDescription-->
