@@ -49,12 +49,17 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #4a90e2,
-  secondary: #5ec2b7,
-  success: #ff220c,
-  warning: #ff220c,
-  alert: #303633,
+  primary: #319827,
+  secondary: #5C3F23,
+  success: #3C6E71,
+  warning: #4B4E6D,
+  alert: #319827,
 );
+$main-color: #319827;
+$secondary-color: #5C3F23;
+$bold-color: #3C6E71;
+$subtle-color: #4B4E6D;
+$text-color: #1F1F15;
 $light-gray: #e6e6e6;
 $medium-gray: #303633;
 $dark-gray: #0e0b08;
